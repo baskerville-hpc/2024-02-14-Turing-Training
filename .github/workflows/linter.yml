@@ -30,7 +30,6 @@ jobs:
         with:
           args: '*.md'
       - name: Spellcheck
-        runs-on: ubuntu-latest
         steps:
         # The checkout step
         - uses: actions/checkout@v3
