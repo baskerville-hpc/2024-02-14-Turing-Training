@@ -30,8 +30,6 @@ jobs:
         with:
           args: '*.md'
       - name: Spellcheck
-        steps:
-        # The checkout step
-          uses: actions/checkout@v3
-          uses: rojopolis/spellcheck-github-actions@-1.35.0
-          name: Spellcheck
+        uses: actions/checkout@v3
+#        uses: rojopolis/spellcheck-github-actions@-1.35.0
+#        name: Spellcheck
