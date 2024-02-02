@@ -29,9 +29,10 @@ jobs:
         uses: docker://avtodev/markdown-lint:v1 # fastest way
         with:
           args: '*.md'
-        build:
-          name: Spellcheck
+      - name: Spellcheck
           steps:
           - uses: actions/checkout@v3
           - uses: rojopolis/spellcheck-github-actions@0.35.0
             name: Spellcheck
+
+
