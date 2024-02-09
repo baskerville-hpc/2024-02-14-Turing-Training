@@ -12,4 +12,4 @@
 # --x11 == allows X11 forwarding and GUI options
 # More details on srun options can be found: https://slurm.schedmd.com/srun.html
 
-srun --export=USER,HOME,PATH,TERM --account=vjgo8416-training24 --qos=arc --nodes=1-1 --ntasks=36 --gres=gpu:1 --reservation=vjgo8416-training24 --time=6:0:0 --pty /bin/bash
+srun --export=USER,HOME,PATH,TERM --account=vjgo8416-training24 --qos=turing --nodes=1-1 --ntasks=36 --gres=gpu:1 --reservation=vjgo8416-training24 --time=6:0:0 --pty /bin/bash
