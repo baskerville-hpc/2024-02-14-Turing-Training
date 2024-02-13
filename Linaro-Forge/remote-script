@@ -1,0 +1,17 @@
+#aet up global & personal login environments
+#
+#source /etc/profile
+#source $HOME/.bash_profile
+#
+# at this point, it's like we just logged in to ookami
+#
+#
+# set up extra environment for this job
+#
+#module load fujitsu/compiler
+#module load linaro/forge
+
+module load CUDA/11.7.0
+module load OpenMPI/4.1.4-NVHPC-22.7-CUDA-11.7.0
+module load Python/3.10.4-GCCcore-11.3.0
+module load Linaro-Forge/23.0.1
