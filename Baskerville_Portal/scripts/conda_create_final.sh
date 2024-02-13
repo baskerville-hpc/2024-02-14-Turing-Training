@@ -1,13 +1,11 @@
 #!/bin/bash
-#SBATCH --account 
-#SBATCH --qos
+#SBATCH --account vjgo8416-training24
+#SBATCH --qos turing
 #SBATCH --time 1:0:0
 #SBATCH --nodes 1
 #SBATCH --gpus 1
 #SBATCH --cpus-per-gpu 36
-#SBATCH --reservation 
-
-#Substitute appropriate values above
+#SBATCH --reservation vjgo8416-training24
 
 # Module loading
 module purge
@@ -20,9 +18,7 @@ set -e
 eval "$(${EBROOTMINICONDA3}/bin/conda shell.bash hook)" # initialise Conda
 
 # Conda environment
-
-#Edit this
-export CONDA_ENV_PATH=
+export CONDA_ENV_PATH="/bask/projects/v/vjgo8416-training24/james_allsopp/my_conda_env"
 export CONDA_PKGS_DIRS="/tmp"
 
 conda create --yes --prefix ${CONDA_ENV_PATH}
