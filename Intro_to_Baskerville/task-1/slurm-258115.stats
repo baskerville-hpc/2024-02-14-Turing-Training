@@ -1,0 +1,16 @@
++--------------------------------------------------------------------------+
+| Job on the Baskerville cluster:
+| Starting at Fri Sep 23 10:36:09 2022 for wongj(834097)
+| Identity jobid 258115 jobname example-job.sh
+| Running against project yearwoog-baskerville and in partition baskerville-a100_40
+| Requested cpu=2,mem=6G,node=1,billing=2 - 01:00:00 walltime
+| Assigned to nodes bask-pg0309u03a
+| Command /bask/projects/e/edmondac-rsg/wongj/workshops/intro-to-baskerville/task-1/example-job.sh
+| WorkDir /bask/projects/e/edmondac-rsg/wongj/workshops/intro-to-baskerville/task-1
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Finished at Fri Sep 23 10:36:13 2022 for wongj(834097) on the Baskerville Cluster
+| Required (00:00.823 cputime, 4168K memory used) - 00:00:05 walltime
+| JobState COMPLETING - Reason None
+| Exitcode 0:0
++--------------------------------------------------------------------------+
