@@ -1,0 +1,118 @@
++ module purge
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load baskerville
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load bask-apps/live
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load PyTorch/1.10.0-foss-2021a-CUDA-11.3.1
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+GCCcore/10.3.0
+zlib/1.2.11-GCCcore-10.3.0
+binutils/2.36.1-GCCcore-10.3.0
+GCC/10.3.0
+numactl/2.0.14-GCCcore-10.3.0
+XZ/5.2.5-GCCcore-10.3.0
+libxml2/2.9.10-GCCcore-10.3.0
+libpciaccess/0.16-GCCcore-10.3.0
+hwloc/2.4.1-GCCcore-10.3.0
+OpenSSL/1.1
+libevent/2.1.12-GCCcore-10.3.0
+UCX/1.10.0-GCCcore-10.3.0
+libfabric/1.12.1-GCCcore-10.3.0
+PMIx/3.2.3-GCCcore-10.3.0
+OpenMPI/4.1.1-GCC-10.3.0
+OpenBLAS/0.3.15-GCC-10.3.0
+FlexiBLAS/3.0.4-GCC-10.3.0
+gompi/2021a
+FFTW/3.3.9-gompi-2021a
+ScaLAPACK/2.1.0-gompi-2021a-fb
+foss/2021a
+CUDA/11.3.1
+Ninja/1.10.2-GCCcore-10.3.0
+bzip2/1.0.8-GCCcore-10.3.0
+ncurses/6.2-GCCcore-10.3.0
+libreadline/8.1-GCCcore-10.3.0
+ncurses/6.2-GCCcore-10.3.0
+Tcl/8.6.11-GCCcore-10.3.0
+SQLite/3.35.4-GCCcore-10.3.0
+GMP/6.2.1-GCCcore-10.3.0
+libffi/3.3-GCCcore-10.3.0
+Python/3.9.5-GCCcore-10.3.0
+protobuf/3.17.3-GCCcore-10.3.0
+protobuf-python/3.17.3-GCCcore-10.3.0
+pybind11/2.6.2-GCCcore-10.3.0
+SciPy-bundle/2021.05-foss-2021a
+typing-extensions/3.10.0.0-GCCcore-10.3.0
+libyaml/0.2.5-GCCcore-10.3.0
+PyYAML/5.4.1-GCCcore-10.3.0
+MPFR/4.1.0-GCCcore-10.3.0
+GMP/6.2.1-GCCcore-10.3.0
+numactl/2.0.14-GCCcore-10.3.0
+NASM/2.15.05-GCCcore-10.3.0
+x264/20210414-GCCcore-10.3.0
+LAME/3.100-GCCcore-10.3.0
+x265/3.5-GCCcore-10.3.0
+expat/2.2.9-GCCcore-10.3.0
+libpng/1.6.37-GCCcore-10.3.0
+Brotli/1.0.9-GCCcore-10.3.0
+freetype/2.10.4-GCCcore-10.3.0
+util-linux/2.36-GCCcore-10.3.0
+fontconfig/2.13.93-GCCcore-10.3.0
+freetype/2.10.4-GCCcore-10.3.0
+xorg-macros/1.19.3-GCCcore-10.3.0
+X11/20210518-GCCcore-10.3.0
+freetype/2.10.4-GCCcore-10.3.0
+fontconfig/2.13.93-GCCcore-10.3.0
+FriBidi/1.0.10-GCCcore-10.3.0
+FFmpeg/4.3.2-GCCcore-10.3.0
+libjpeg-turbo/2.0.6-GCCcore-10.3.0
+jbigkit/2.1-GCCcore-10.3.0
+gzip/1.10-GCCcore-10.3.0
+lz4/1.9.3-GCCcore-10.3.0
+zstd/1.4.9-GCCcore-10.3.0
+LibTIFF/4.2.0-GCCcore-10.3.0
+Pillow/8.2.0-GCCcore-10.3.0
+cuDNN/8.2.1.32-CUDA-11.3.1
+magma/2.6.1-foss-2021a-CUDA-11.3.1
+GDRCopy/2.2-GCCcore-10.3.0
+UCX-CUDA/1.10.0-GCCcore-10.3.0-CUDA-11.3.1
+NCCL/2.10.3-GCCcore-10.3.0-CUDA-11.3.1
+expecttest/0.1.3-GCCcore-10.3.0
+PyTorch/1.10.0-foss-2021a-CUDA-11.3.1
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ python pytorch-gpu.py
+__CUDNN VERSION: 8201
+__Number CUDA Devices: 1
+__CUDA Device Name: NVIDIA A100-SXM4-40GB
+__CUDA Device Total Memory [GB]: 42.505273344
