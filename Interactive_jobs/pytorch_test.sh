@@ -20,21 +20,17 @@ module load torchvision/0.15.2-foss-2022a-CUDA-11.7.0
 # Creatiung Python Virtual environment
 if [ -d "venv" ];
   then
-    echo -e "Python Virtual Environment exists deleting it"
-    rm -rf venv
+    echo -e "Python Virtual Environment exists"
     else
       echo -e "Creating Python Virtual Environment"
       python -m venv venv
       source venv/bin/activate
       pip install --upgrade pip
+      echo -e "Installing a test for GPU PyTorch Installation and will run training on CIFAR10 dataset."
+      pip install test-pytorch-gpu
+      sleep 5
+      sed -i "s/n_epochs: int = 10/n_epochs: int = 20/" venv/lib/python3.10/site-packages/src/run_cifar.py
 fi
 
-echo -e "Installing a test for GPU PyTorch Installation and will run training on CIFAR10 dataset."
-
-pip install test-pytorch-gpu
-
-sleep 5
-
-sed -i "s/n_epochs: int = 10/n_epochs: int = 20/" venv/lib/python3.10/site-packages/src/run_cifar.py
-
+# Running Cifar
 run_cifar
