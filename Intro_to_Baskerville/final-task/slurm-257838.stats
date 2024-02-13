@@ -1,0 +1,16 @@
++--------------------------------------------------------------------------+
+| Job on the Baskerville cluster:
+| Starting at Thu Sep 22 11:11:56 2022 for wongj(834097)
+| Identity jobid 257838 jobname pytorch-job.sh
+| Running against project yearwoog-baskerville and in partition baskerville-a100_40
+| Requested cpu=36,mem=108G,node=1,billing=36,gres/gpu=1 - 01:00:00 walltime
+| Assigned to nodes bask-pg0308u04a
+| Command /bask/projects/e/edmondac-rsg/wongj/workshops/intro-to-baskerville/final-task/pytorch-job.sh
+| WorkDir /bask/projects/e/edmondac-rsg/wongj/workshops/intro-to-baskerville/final-task
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Finished at Thu Sep 22 11:12:45 2022 for wongj(834097) on the Baskerville Cluster
+| Required (00:32.553 cputime, 11312K memory used) - 00:00:50 walltime
+| JobState COMPLETING - Reason None
+| Exitcode 0:0
++--------------------------------------------------------------------------+
